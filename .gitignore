@@ -6,8 +6,14 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
+[Mm]emoryCaptures/
 
-# Visual Studio / MonoDevelop generated files
+# Ignore asset meta data, project settings and other generated files
+/Assets/**/*.meta
+/ProjectSettings/
+/UserSettings/
+
+# Visual Studio
 .vscode/
 *.csproj
 *.unityproj
@@ -20,14 +26,8 @@
 *.booproj
 *.svd
 
-# Mac OS generated files
+# OS generated files
 .DS_Store
-._*
-
-# Windows generated files
+.DS_Store?
 Thumbs.db
-Desktop.ini
-
-# Other
-*.apk
-*.unitypackage
+ehthumbs.db
