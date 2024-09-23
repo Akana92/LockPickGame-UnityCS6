@@ -12,6 +12,7 @@ This is a simple lock-picking game made with Unity. The goal of the game is to a
 - **Restart Button**: After winning or losing, a pop-up screen appears with the option to restart the game.
 
 ## How to Play
+0. Click SampleScene on Scenes
 1. Start the game and observe the values of the three pins.
 2. Use the tools (drill, hammer, picklock) to adjust the pins' values.
 3. The goal is to set all three pins to the target value (e.g., 5) before the timer reaches zero.
